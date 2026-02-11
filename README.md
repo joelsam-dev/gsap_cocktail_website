@@ -1,16 +1,84 @@
-# React + Vite
+# 🍸 Velvet Pour - Cocktail Bar Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning, interactive cocktail bar website featuring smooth GSAP animations and modern design. Built as part of the JS Mastery GSAP course to learn advanced animation techniques and modern web development practices.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Site:** [Coming Soon - Will deploy on Vercel]
 
-## React Compiler
+## 📚 About This Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was created while learning from **JS Mastery's GSAP Course**. It's a hands-on implementation to practice and understand:
+- GSAP (GreenSock Animation Platform) animations
+- ScrollTrigger for scroll-based animations
+- Tailwind CSS utility classes
+- React component architecture
+- Modern web design patterns
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎬 **Scroll-Based Animations** - Smooth parallax effects and scroll-triggered animations
+- 🎭 **Text Split Animations** - Character and word-level animations using SplitText
+- 🍹 **Interactive Cocktail Menu** - Carousel slider with navigation controls
+- 📱 **Fully Responsive** - Works seamlessly on mobile, tablet, and desktop
+- 🎨 **Modern Design** - Clean UI with glassmorphism effects
+- 🎥 **Video Scrubbing** - Scroll-controlled video playback
+- 🌿 **Parallax Elements** - Decorative leaves that move with scroll
+
+## 🛠️ Technologies Used
+
+- **React** - JavaScript library for building user interfaces
+- **GSAP (GreenSock)** - Professional-grade animation library
+  - ScrollTrigger - For scroll-based animations
+  - SplitText - For text animation effects
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Responsive** - For responsive breakpoints
+- **Vite/Create React App** - Build tool (depending on your setup)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+- Basic knowledge of React
+- Familiarity with terminal/command line
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/velvet-pour-cocktail.git
+   cd velvet-pour-cocktail
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` (Vite) or `http://localhost:3000` (CRA)
+
+## 📦 Key Dependencies
+
+```json
+{
+  "gsap": "^3.x.x",
+  "react": "^18.x.x",
+  "react-dom": "^18.x.x",
+  "react-responsive": "^9.x.x",
+  "@gsap/react": "^2.x.x"
+}
+```
+
+Made with ❤️ and lots of ☕ while learning GSAP & React
