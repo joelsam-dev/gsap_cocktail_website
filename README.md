@@ -4,7 +4,7 @@ A stunning, interactive cocktail bar website featuring smooth GSAP animations an
 
 ## 🌟 Live Demo
 
-- **Live Site:** [Coming Soon - Will deploy on Vercel]
+- **Live Site:** https://cocktailwebsite-lac.vercel.app/
 
 ## 📚 About This Project
 
